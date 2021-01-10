@@ -15,7 +15,6 @@ export default {
   components: { SinglePost },
 
   setup(props) {
-    console.log(props.posts[0].title);
     onMounted(() => console.log("component mounted"));
     onUnmounted(() => console.log("component unmount"));
     onUpdated(() => console.log("component updated"));
